@@ -1,0 +1,56 @@
+😍Flex :-
+
+--------------------Main Axis--------------------
+|
+|
+|
+| cross axis
+|
+|
+|
+|
+
+Horizontal - Main axis
+Vertical -Cross axis
+
+                                               
+
+
+
+
+                                              **Flex container property**:-
+
+
+  -> **flex Direction** :-Direction on which the flex should happen 
+                        options:
+                                row, row-reverse ,column ,column-reverse
+          
+  -> **flex wrap** :-This applies when you change the size of the div it will wrap the items inside the container
+                        options:
+                                nowrap , wrap ,wrap-reverse
+  
+  -> **justify-content** :-This is used to control flow of items inside container Horizontally(Main Axis)
+                        options:
+                                center , flex-end ,flex-start , space-between(items will start from extrame ends) , space-around(It gives equal space around items), space-evenly (equal space between them and start and end),strech
+
+  -> **align-items** :-This is used to control flow of items inside container Vertically(Cross Axis)
+                        options:
+                                flex-start, flex-end ,center ,baseline( it will take text as a baseline and align it horizontally) ,strech
+
+  -> **align-content** :-Lets say a container has two rows of item ,to control the flow of that it gives the control to handle flow between them 
+                         options:
+                                flex-start , flex-end ,center ,strech,space-between ,space-around
+
+                                                **flex child property**:-
+
+  -> **flex-basis**:- defines the inital width of the child 
+
+  -> **flex-grow**:-default vallue is 0 this will make the perticular item in the container grow 
+
+  -> **flex-shrink**:-default value =1 this will shrink 
+
+  ->**flex**:- It is used to make all the above three in one line flex flex-basis flex-grow flex-shrink
+
+  ->**order** :-order in a container is the order in which item need to be placed if item1 order is 1 then it will go to end of the line and if item2 order is set to 2 then item2 will be after item1
+
+  ->**align-self**:- we can control the placement of the items inside container vetcally
